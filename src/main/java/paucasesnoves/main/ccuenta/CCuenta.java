@@ -64,34 +64,66 @@ public class CCuenta {
 
     // Métodos de acceso para los atributos de la clase CCuenta
 
+    /**
+     * Método que devuelve el nombre del titular de la cuenta.
+     * @return El nombre del titular de la cuenta.
+     */
     public String getNombre() {
         return nombre;
     }
 
+    /**
+     * Método que establece el nombre del titular de la cuenta.
+     * @param nombre El nuevo nombre del titular de la cuenta.
+     */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
+    /**
+     * Método que devuelve el número de cuenta.
+     * @return El número de cuenta.
+     */
     public String getCuenta() {
         return cuenta;
     }
 
+    /**
+     * Método que establece el número de cuenta.
+     * @param cuenta El nuevo número de cuenta.
+     */
     public void setCuenta(String cuenta) {
         this.cuenta = cuenta;
     }
 
+    /**
+     * Método que devuelve el saldo actual de la cuenta.
+     * @return El saldo actual de la cuenta.
+     */
     public double getSaldo() {
         return saldo;
     }
 
+    /**
+     * Método que establece el saldo de la cuenta.
+     * @param saldo El nuevo saldo de la cuenta.
+     */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
+    /**
+     * Método que devuelve el tipo de interés de la cuenta.
+     * @return El tipo de interés de la cuenta.
+     */
     public double getTipoInteres() {
         return tipoInteres;
     }
 
+    /**
+     * Método que establece el tipo de interés de la cuenta.
+     * @param tipoInteres El nuevo tipo de interés de la cuenta.
+     */
     public void setTipoInteres(double tipoInteres) {
         this.tipoInteres = tipoInteres;
     }
